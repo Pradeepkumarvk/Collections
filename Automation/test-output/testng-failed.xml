@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="Listners.Listners"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <groups>
+      <run>
+        <include name="Exceldatatesting"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testcase1.Tc001_Loginwithrecords">
+        <methods>
+          <include name="testing" invocation-numbers="0 3 5"/>
+        </methods>
+      </class> <!-- testcase1.Tc001_Loginwithrecords -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

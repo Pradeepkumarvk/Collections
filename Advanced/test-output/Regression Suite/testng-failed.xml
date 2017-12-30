@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="com.test.automation.uiAutomation.customListner.RetryListener"/>
+  </listeners>
+  <test name="HomePageTest(failed)">
+    <classes>
+      <class name="com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration">
+        <methods>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="verifyRegistration"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration -->
+      <class name="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
+        <methods>
+          <include name="endTest"/>
+          <include name="verifyLoginWithDifferentRecords"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords -->
+      <class name="com.test.automation.uiAutomation.addToCart.TC002_VerifyFacebookLink">
+        <methods>
+          <include name="endTest"/>
+          <include name="endTest"/>
+          <include name="verifyFacebookLink"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.addToCart.TC002_VerifyFacebookLink -->
+      <class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart">
+        <methods>
+          <include name="verifyAaddToCart"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+  <test name="AddToCartTest(failed)">
+    <classes>
+      <class name="com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration">
+        <methods>
+          <include name="setUp"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration -->
+      <class name="com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords">
+        <methods>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.homepage.TC003_VerifyLoginWithDifferentRecords -->
+      <class name="com.test.automation.uiAutomation.addToCart.TC002_VerifyFacebookLink">
+        <methods>
+          <include name="endTest"/>
+          <include name="endTest"/>
+          <include name="verifyFacebookLink"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.addToCart.TC002_VerifyFacebookLink -->
+      <class name="com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart">
+        <methods>
+          <include name="verifyAaddToCart"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.test.automation.uiAutomation.addToCart.TC001_VerifyAaddToCart -->
+    </classes>
+  </test> <!-- AddToCartTest(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
